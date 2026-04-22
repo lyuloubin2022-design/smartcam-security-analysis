@@ -1,0 +1,4 @@
+device_name,device_type,src_ip,approved_domains,scenario_role,controlled_focus,synthetic_controlled
+cam_livingroom,camera_like_device,192.168.10.20,"vendorvideo.example,resolver.home.arpa",Camera-like device with secure control traffic and insecure diagnostic fallback.,"Plaintext identifiers, plaintext HTTP, contextual hostname exposure, mixed transport.",yes
+plug_kitchen,smart_plug_light_device,192.168.10.35,"iotcontrol.example,resolver.home.arpa",Smart plug / light device with secure MQTT control and recurring third-party beaconing.,"Background communication, third-party destination, mixed transport, plaintext leakage.",yes
+hub_gateway,hub_controller_gateway,192.168.10.10,"smarthub.example,resolver.home.arpa",Hub / gateway with legacy backup path and externally reachable management surface.,"Weak TLS, suspicious port, attack surface indicator, third-party destination.",yes

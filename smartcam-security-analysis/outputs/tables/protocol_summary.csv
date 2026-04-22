@@ -1,0 +1,7 @@
+protocol,tls_present,session_count,packet_count_total,byte_count_total,unique_devices,top_hostnames
+HTTPS,True,46,357,157390,3,"api.vendorvideo.example, controller.smarthub.example, stream.vendorvideo.example"
+MQTT,True,32,182,47757,2,"broker.iotcontrol.example, broker.smarthub.example"
+DNS,False,20,20,2093,3,resolver.home.arpa
+HTTP,False,12,50,13638,2,"telemetry.ads-insight.example, diag.vendorvideo.example, family-room-cam.vendorvideo.example"
+NTP,False,4,4,334,1,time.vendorvideo.example
+TCP,False,4,14,2544,1,"hub-admin.smarthub.example, support-tunnel.remoteassist.example"

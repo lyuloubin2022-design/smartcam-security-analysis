@@ -1,0 +1,5 @@
+flag_name,status,explanation
+GDPR_Art32a_flag,FAIL,"Plaintext identifiers were observed in synthetic traffic, indicating inadequate confidentiality protection for personal data in transit."
+ENISA_GP_TM_50_flag,FAIL,"Application traffic used plaintext HTTP or legacy TLS, indicating weak technical transport protection in this controlled scenario."
+ENISA_GP_OP_04_flag,FAIL,"Recurring background communications reached non-approved external destinations, suggesting weak control over ongoing outbound operational traffic."
+CRA_attack_surface_flag,FAIL,Inbound management targeting or suspicious service exposure increased the synthetic device attack surface.

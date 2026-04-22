@@ -1,0 +1,9 @@
+dst_port,session_count,byte_count_total,unique_devices,protocols,tls_session_count,insecure_session_count,example_destinations
+443,46,157390,3,HTTPS,46,0,"api.vendorvideo.example, controller.smarthub.example, stream.vendorvideo.example"
+8883,32,47757,2,MQTT,32,0,"broker.iotcontrol.example, broker.smarthub.example"
+53,20,2093,3,DNS,0,20,resolver.home.arpa
+8080,10,10094,1,HTTP,0,10,telemetry.ads-insight.example
+123,4,334,1,NTP,0,4,time.vendorvideo.example
+8443,3,864,1,TCP,0,3,hub-admin.smarthub.example
+80,2,3544,1,HTTP,0,2,"diag.vendorvideo.example, family-room-cam.vendorvideo.example"
+2323,1,1680,1,TCP,0,1,support-tunnel.remoteassist.example

@@ -1,0 +1,17 @@
+destination,session_count,unique_devices,third_party_destination,non_tls_sessions,protocols,byte_count_total,first_seen,last_seen
+broker.iotcontrol.example,24,1,False,0,MQTT,36373,2026-04-14T06:01:00,2026-04-14T17:32:00
+resolver.home.arpa,20,3,False,20,DNS,2093,2026-04-14T06:05:00,2026-04-14T23:49:00
+api.vendorvideo.example,18,1,False,0,HTTPS,71193,2026-04-14T06:00:00,2026-04-14T17:22:00
+controller.smarthub.example,12,1,False,0,HTTPS,25514,2026-04-14T06:24:00,2026-04-14T17:26:00
+telemetry.ads-insight.example,10,1,True,10,HTTP,10094,2026-04-14T06:16:00,2026-04-14T13:01:00
+broker.smarthub.example,8,1,False,0,MQTT,11384,2026-04-14T06:39:00,2026-04-14T17:09:00
+api.iotcontrol.example,6,1,False,0,HTTPS,12502,2026-04-14T06:13:00,2026-04-14T18:40:00
+stream.vendorvideo.example,6,1,False,0,HTTPS,36655,2026-04-14T06:10:00,2026-04-14T12:49:00
+time.vendorvideo.example,4,1,False,4,NTP,334,2026-04-14T06:07:00,2026-04-15T00:05:00
+hub-admin.smarthub.example,3,1,False,3,TCP,864,2026-04-14T19:17:00,2026-04-14T19:19:00
+legacy-backup.smarthub.example,2,1,False,0,HTTPS,5976,2026-04-14T09:40:00,2026-04-14T18:40:00
+backup-storage.partnercloud.example,1,1,True,0,HTTPS,3290,2026-04-14T14:25:00,2026-04-14T14:25:00
+diag.vendorvideo.example,1,1,False,1,HTTP,2328,2026-04-14T13:25:00,2026-04-14T13:25:00
+family-room-cam.vendorvideo.example,1,1,False,1,HTTP,1216,2026-04-14T16:10:00,2026-04-14T16:10:00
+support-tunnel.remoteassist.example,1,1,True,1,TCP,1680,2026-04-14T19:15:00,2026-04-14T19:15:00
+video-metrics.analytics-partner.example,1,1,True,0,HTTPS,2260,2026-04-14T17:15:00,2026-04-14T17:15:00
